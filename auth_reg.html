@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn SignUp</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container" style="max-width: 600px;">
+        <form class="text-center border border-light p-5" method="POST" name="reg" id="reg">
+            <button class="btn btn-info  my-4" id="auth_btn">Authorization</button>
+            <button class="btn btn-info  my-4" id="reg_btn">Registration</button>
+            <p id="p_warning">Вводите свой Email.</p>
+            <p id="p_warning2">
+                Необходимо указать действующий Email, так как именно на указанный адресс будет отправелнно письмо с дальнейшими инструкциями для регистрации.
+            </p>
+            <!-- Email -->
+            <input type="email" id="email" name="email" class="form-control mb-4" placeholder="E-mail">
+            <!-- Password -->
+            <input type="password" id="password" name="password" class="form-control mb-4" placeholder="Password">
+            <button class="btn btn-info btn-block my-4" type="submit" id="sign_in">Войти</button>
+            <button class="btn btn-info btn-block my-4" type="submit" id="sign_up">Подтвердить почту</button>
+        </form>
+    </div>
+
+
+
+
+    <script src="static/auth_reg.js"></script>
+    <!-- JQuery -->
+    <script type=" text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js "></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js "></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript " src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js "></script>
+
+
+</body>
+
+</html>
